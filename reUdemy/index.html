@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy - cópia</title>
+    <link rel="stylesheet" href="./css/estilo/geral.css" media="all">
+    <link rel="stylesheet" href="css/estilo/pequena.css">
+    <link rel="stylesheet" href="css/estilo/media.css">
+    <link rel="stylesheet" href="css/estilo/grande.css">
+
+    <link rel="shortcut icon" href="image/favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="conteiner-header">
+            <div class="icones-cabecalho">
+                <button class="button-1 config-iguais">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </button>
+                <div class="preencher"></div>
+            </div>
+            <div>
+                <img  class="logo"src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="logo udemy">
+            </div>
+            <div class="icones-cabecalho">
+                <div class="lupa config-iguais centralizador-items">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M781.692-136.924 530.461-388.155q-30 24.769-69 38.769t-80.692 14q-102.55 0-173.582-71.014t-71.032-173.537q0-102.524 71.014-173.601 71.014-71.076 173.538-71.076 102.523 0 173.6 71.032T625.384-580q0 42.846-14.385 81.846-14.385 39-38.385 67.846l251.231 251.231-42.153 42.153Zm-400.923-258.46q77.308 0 130.962-53.654Q565.385-502.692 565.385-580q0-77.308-53.654-130.962-53.654-53.654-130.962-53.654-77.308 0-130.962 53.654Q196.154-657.308 196.154-580q0 77.308 53.653 130.962 53.654 53.654 130.962 53.654Z"/></svg>
+                </div>
+                <div class="carrinho config-iguais centralizador-items">
+                    <svg class="svg" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M286.154-97.694q-29.153 0-49.576-20.422-20.423-20.423-20.423-49.577 0-29.153 20.423-49.576 20.423-20.423 49.576-20.423 29.154 0 49.577 20.423t20.423 49.576q0 29.154-20.423 49.577-20.423 20.422-49.577 20.422Zm387.692 0q-29.154 0-49.577-20.422-20.423-20.423-20.423-49.577 0-29.153 20.423-49.576 20.423-20.423 49.577-20.423 29.153 0 49.576 20.423 20.423 20.423 20.423 49.576 0 29.154-20.423 49.577-20.423 20.422-49.576 20.422ZM240.615-730 342-517.692h272.692q3.462 0 6.154-1.731 2.693-1.731 4.616-4.808l107.307-195q2.308-4.231.385-7.5-1.923-3.27-6.539-3.27h-486Zm-28.769-59.998h555.383q24.538 0 37.115 20.884 12.577 20.885 1.192 42.654L677.384-494.309q-9.847 17.308-26.039 26.962-16.192 9.653-35.499 9.653H324l-46.308 84.616q-3.077 4.616-.192 10.001t8.654 5.385h457.691v59.998H286.154q-39.999 0-60.115-34.499-20.115-34.5-1.423-68.884l57.078-102.616-145.539-306.308H60.001v-59.998h113.845l38 80ZM342-517.692h280-280Z"/></svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner-body">
+        <div class="conteiner-usuario">
+            <div class="usuario vertical">
+                <div class="vertical">A</div>
+            </div>
+        </div>
+        <div class="nome-usuario">Adriano</div>
+        <ul class="menu-opcoes">
+            <li><a href="">Visualizar perfil público</a></li>
+            <li><a href="">Perfil</a></li>
+            <li><a href="">Foto</a></li>
+            <li><a href="">Segurança da conta</a></li>
+            <li><a href="">Assinaturas</a></li>
+            <li><a href="">Formas de pagamento</a></li>
+            <li><a href="">Privacidade</a></li>
+            <li><a href="">Notificações</a></li>
+            <li><a href="">Clientes API</a></li>
+            <li><a href="">Encerrar conta</a></li>
+        </ul>
+        <div class="form-cabecalho">
+            <div class="cabecalho">
+                <h1>Public profile</h1>
+                <p>Adicione informações sobre você</p>
+            </div>
+
+            <div id="form-corpo">
+                
+                <form action="">
+                    <fieldset>
+                        <div class="legend">
+                            <legend class="legenda">Dados básicos:</legend>
+                        </div>
+                        <div class="formulario">
+                        
+                            <input class="input-padrao" type="text" placeholder="Nome">
+                            <input class="input-padrao"  type="text" placeholder="Sobrenome">
+
+                            <input id="placeholder" class="input-padrao" type="text" placeholder="Profissão ou Título" maxlength="60" >
+
+                            <div class="alert-text">Adicione um título profissional, como "Instrutor na Udemy" ou "Arquiteto".</div>
+                            <div class="input-padrao" id="textarea" >
+                                <button>
+                                    <img src="image/bold.svg" alt="fonte forte">
+                                </button>
+                                <button>
+                                    <img src="image/italic.svg" alt="fonte forte">
+                                </button>
+                            </div>
+
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                            <div class="alert-text">Não é permitido usar links e códigos de cupom nessa seção.</div>
+
+                            <select class="input-padrao" name="">
+                                <option value="">Português (Brasil)</option>
+                                <option value="">Inglês</option>
+                                <option value="">Espanhol</option>
+                                <option value="">Italiano</option>
+                                <option value="">Grego</option>
+                            </select>
+                    </fieldset>
+
+                            <div class="uma-secao">
+                                <fieldset>
+                                    <div class="legend">
+                                        <legend class="legenda">Links:</legend>
+                                    </div>
+                                    <input class="input-padrao" type="text" placeholder="Site(http(s))://..">
+                                    <div class="dentro-input input-padrao">
+                                        http://twitter.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Twitter">
+                                    </div>
+                                    <div class="alert-text">Adicione seu nome de usuário do Twitter (ex: johnsmith).</div>
+                                    <div class="dentro-input input-padrao">
+                                        http://www.facebook.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Twitter">
+                                    </div>
+                                    <div class="alert-text">Digite seu nome de usuário do Facebook (ex: johnsmith).</div>
+                                    <div class="dentro-input input-padrao">
+                                        http://www.linkedin.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Linkedin">
+                                    </div>
+                                    <div class="alert-text">Forneça seu nome de usuário do LinkedIn (ex.: johnsmith).</div>
+                                    <div class="dentro-input input-padrao">
+                                        http://www.youtube.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Youtube">
+                                    </div>
+                                    <div class="alert-text">Forneça seu nome de usuário do YouTube (ex.: johnsmith).</div>
+                                    <div class="input-padrao div-final">
+                                        <button class="salvar">
+                                            <span>Salvar</span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            
+                        </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+
+<!-- <body>
+    <header>
+        <div id="conteiner-header">
+            <a href="/">
+                <img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="logo udemy">
+            </a>
+            <nav>
+                <div>
+                    <button>
+                        <span>Categorias</span>
+                    </button>
+                </div>
+            </nav>
+            <div style="display: flex;">
+                <button class="lupa">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M781.692-136.924 530.461-388.155q-30 24.769-69 38.769t-80.692 14q-102.55 0-173.582-71.014t-71.032-173.537q0-102.524 71.014-173.601 71.014-71.076 173.538-71.076 102.523 0 173.6 71.032T625.384-580q0 42.846-14.385 81.846-14.385 39-38.385 67.846l251.231 251.231-42.153 42.153Zm-400.923-258.46q77.308 0 130.962-53.654Q565.385-502.692 565.385-580q0-77.308-53.654-130.962-53.654-53.654-130.962-53.654-77.308 0-130.962 53.654Q196.154-657.308 196.154-580q0 77.308 53.653 130.962 53.654 53.654 130.962 53.654Z" fill="#6E7377"/></svg>
+                </button>
+                <input class="barra-header" type="text" placeholder="Pesquisar por qualquer coisa">
+            </div>
+            <div class="caixa-de-link">
+                <a href="">Udemy Business</a>
+            </div>
+            <div class="caixa-de-link">
+                <a href="">Ensine na Udemy</a>
+            </div>
+            <div class="caixa-de-link">
+                <a href="">Meu Aprendizado</a>
+            </div>
+            <div id="conteiner-com-quatro">
+            
+                    <a class="icons-conteiner" href="">
+                        <img style="height: 2em;" src="image/favorito.svg" alt="">
+                    </a>
+            
+            
+                    <a class="icons-conteiner" href="">
+                        <img style="height: 2em;" src="image/compra.svg" alt="">
+                    </a>
+            
+            
+                    <a class="icons-conteiner" href="">
+                        <img style="height: 2em;" src="image/sino.svg" alt="">
+                    </a>
+            
+            
+                    <a class="icons-conteiner" href="">
+                        <div class="usuario">A</div>
+                    </a>
+            
+            </div>
+        </div>
+    </header>
+    <div id="conteiner">
+        <div class="mini-menu">
+
+
+            <div class="avatar">
+                <div class="avatar-conteiner">A</div>
+            </div>
+            <div>
+                <div class="div-strong"><strong>Adriano</strong></div>
+                <ul>
+                    <li><a href="">Visualizar perfil público</a></li>
+                    <li><a href="">Perfil</a></li>
+                    <li><a href="">Foto</a></li>
+                    <li><a href="">Segurança da conta</a></li>
+                    <li><a href="">Assinaturas</a></li>
+                    <li><a href="">Formas de pagamento</a></li>
+                    <li><a href="">Privacidade</a></li>
+                    <li><a href="">Notificações</a></li>
+                    <li><a href="">Clientes API</a></li>
+                    <li><a href="">Encerrar conta</a></li>
+                </ul>
+            </div>
+        </div>
+        
+
+        <div class="form-cabecalho">
+            <div class="cabecalho" style="padding: 16px 0;">
+                <h1>Perfil público</h1>
+                <p>Adicione informações sobre você</p>
+            </div>
+
+            <div id="form-corpo">
+                
+                <form action="">
+                    <fieldset>
+                        <div class="legend">
+                            <legend class="legenda">Dados básicos:</legend>
+                        </div>
+                        <div class="formulario">
+                        
+                            <input class="input-padrao" type="text" placeholder="Nome">
+                            <input class="input-padrao"  type="text" placeholder="Sobrenome">
+
+                            <input id="placeholder" class="input-padrao" type="text" placeholder="Profissão ou Título" maxlength="60" >
+
+                            <div class="alert-text">Adicione um título profissional, como "Instrutor na Udemy" ou "Arquiteto".</div>
+                            <div class="input-padrao" id="textarea" >
+                                <button>
+                                    <img src="image/bold.svg" alt="fonte forte">
+                                </button>
+                                <button>
+                                    <img src="image/italic.svg" alt="fonte forte">
+                                </button>
+                            </div>
+
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                            <div class="alert-text">Não é permitido usar links e códigos de cupom nessa seção.</div>
+
+                            <select class="input-padrao" name="">
+                                <option value="">Português (Brasil)</option>
+                                <option value="">Inglês</option>
+                                <option value="">Espanhol</option>
+                                <option value="">Italiano</option>
+                                <option value="">Grego</option>
+                            </select>
+                    </fieldset>
+
+                            <div class="uma-secao">
+                                <fieldset>
+                                    <div class="legend">
+                                        <legend class="legenda">Links:</legend>
+                                    </div>
+                                    <input class="input-padrao" type="text" placeholder="Site(http(s))://..">
+                                    <div class="dentro-input input-padrao">
+                                        http://twitter.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Twitter">
+                                    </div>
+                                    <div class="alert-text">Adicione seu nome de usuário do Twitter (ex: johnsmith).</div>
+                                    <div class="dentro-input input-padrao">
+                                        http://www.facebook.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Twitter">
+                                    </div>
+                                    <div class="alert-text">Digite seu nome de usuário do Facebook (ex: johnsmith).</div>
+                                    <div class="dentro-input input-padrao">
+                                        http://www.linkedin.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Linkedin">
+                                    </div>
+                                    <div class="alert-text">Forneça seu nome de usuário do LinkedIn (ex.: johnsmith).</div>
+                                    <div class="dentro-input input-padrao">
+                                        http://www.youtube.com/
+                                        <input class="input-padrao input-posteriores" type="text" placeholder="Perfil no Youtube">
+                                    </div>
+                                    <div class="alert-text">Forneça seu nome de usuário do YouTube (ex.: johnsmith).</div>
+                                    <div class="input-padrao div-final">
+                                        <button class="salvar">
+                                            <span>Salvar</span>
+                                        </button>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            
+                        </div>
+                </form>
+
+            </div>
+        </div>
+
+        <footer>
+            <div class="rodape">
+                <div>
+                    <h3>Compartilhe seu conhecimento</h3>
+                    <p>Crie um curso em vídeo online, atraia alunos do mundo todo e ganhe dinheiro</p>
+                </div>
+                <button class="udemy">
+                    <span>Ensine na Udemy</span>
+                </button>
+            </div>
+        </footer>
+
+</body>-->
+</html>

@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body, html {
+    background-color: #111111;
+    font-family: Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+div.topo-banner{
+    background-color: #ffffff;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header{
+    background-color: #f80032;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+/* PAUSADO NA PARTE DO CONTEINER*/
+.conteiner-dentro-header{
+    display: flex;
+    justify-content: space-between;
+    -moz-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.conteiner-centralizar{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0px auto;
+}
+div.logo{
+    cursor: pointer;
+    border: none;
+}
+div.barra-pesquisa{
+    width: 100%;
+    transition: all 0.1s ease-in-out 0s;
+    will-change: top;
+    flex: 5 1 0%;
+    max-width: 661px;
+    padding: 0px 48px;
+    margin-right: 40px;
+    position: relative;
+}
+input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 7px 0px 0px 7px;
+    border: none;
+    
+}
+
+button.lupa{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    border-radius: 0px 7px 7px 0px;
+    background-color: #ffffff;
+    border: none;
+}
+.div-avatar{
+    white-space: nowrap;    
+}
+.div-avatar svg{
+    height: 35px;
+    width: 35px;
+}
+.botao-avatar{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    transition: all 0.3s ease 0s;
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
+/* .imagem-lupa{
+    width: 40px;
+    filter: contrast(10%);
+    
+} */
+
+svg{
+    width: 30px;
+    height: 30px;
+}
+#avatar{
+    color: #ffffff;
+}
+.conteiner-com-tres{
+    white-space: nowrap;
+    padding: 0px 12px 0px 48px;
+}
+.icones{
+    height: 35px;
+    padding: 0px 12px 0px 12px;
+    background-color: transparent;
+    border: none;
+}
+
+.div-navegacao{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 4px;
+    background-color: transparent;
+    font-size: 14px;   
+}
+#botao-cep{
+    display: flex;
+    white-space: nowrap;
+    border: none;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li {
+    list-style: none;
+    padding: 8px 10px;
+}
+li>a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffffff;
+}
+.div-menu{
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+.div-menu ul{
+    width: 100%;
+}
+.div-menu{
+    padding: 10px 12px;
+}
+.div-nav{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.144);
+    max-width: 1250px;
+    margin: 0px auto;
+}
+#botao-menu{
+    border: transparent;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    
+}
+.div-nav a{
+    color: rgb(102, 102, 102);
+    
+}
+main{
+    max-width: 1200px;
+    margin: 10px auto;
+}
+main img{
+    width: 100%;
+    margin-bottom: 20px;
+} 
+
+.flutuante{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px 15px;
+    margin: 0px auto;
+    box-shadow: 0px 0px 10px white;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    right: 10px;
+    bottom: 25px;
+    max-width: 1230px;
+    color: rgb(105, 103, 103);
+    font-size: 0.9em;
+}
+
+.button-flutuante{
+    background-color: white;
+    color: #f80032;
+    white-space: nowrap;
+    border: 1px solid #f80032;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.flutuante strong{
+    color: rgba(34, 33, 33, 0.664);
+}
+.menu-rolagem{
+    display: flex;
+}
+.menu-rolagem img{
+    margin: 0px;
+    height: 104px;
+    width: 100px;
+}
+.menu-rolagem a{
+    padding-right: 20px;
+    scroll-snap-align: start;
+}
