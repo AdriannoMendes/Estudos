@@ -98,3 +98,20 @@ h1{
 #form-corpo{
     padding: 24px 16px;
 }
+.input-padrao{
+    height: 3rem;
+    width: 100%;
+    padding: 0px 16px;
+    border: 1px solid #2d2f31;
+    padding: 0px 1.6em;
+    margin-bottom: 8px;
+}
+.padrao-legend{
+    padding-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #2d2f31;
+}
+.input-padrao::placeholder{
+    font-size: medium;
+}
