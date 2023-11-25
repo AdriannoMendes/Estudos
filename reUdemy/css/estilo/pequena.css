@@ -112,6 +112,35 @@ h1{
     font-weight: 900;
     color: #2d2f31;
 }
+fieldset{
+    border: none;
+}
 .input-padrao::placeholder{
     font-size: medium;
+}
+.alert-text{
+    font-size: 0.7rem;
+    color: #6a6b6d;
+    margin-bottom: 10px;
+}
+.button-edit{
+    height: 100%;
+    padding: 0 10px;
+    border: none;
+    background-color: transparent;
+}
+#textarea{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.textarea{
+    width: 100%;
+    border: 1px solid;
+    border-top: none;
+}
+fieldset{
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: solid 1px #2d2f31;
 }
