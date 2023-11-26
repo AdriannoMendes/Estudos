@@ -103,7 +103,6 @@ h1{
     width: 100%;
     padding: 0px 16px;
     border: 1px solid #2d2f31;
-    padding: 0px 1.6em;
     margin-bottom: 8px;
 }
 .uma-secao fieldset .input-padrao{
@@ -146,6 +145,10 @@ fieldset{
     width: 100%;
     border: 1px solid;
     border-top: none;
+}
+select{
+    background-color: white;
+    font-size: medium;
 }
 .uma-secao fieldset{
     padding-top: 24px;
