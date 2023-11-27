@@ -111,7 +111,18 @@ h1{
     justify-content: center;
 }
 .input-posteriores{
-    width: 100%;background-color: #2D2F31;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 20px 0px 15px;
+    background-color: #F7F9FA;
+    border-right: none;
+}
+.conteiner-sociais{
+    display: flex;
+}
+.conteiner-sociais .input-padrao::placeholder{
+    font-size: 12px;
 }
 .padrao-legend{
     padding-bottom: 8px;
@@ -150,15 +161,5 @@ select{
     background-color: white;
     font-size: medium;
 }
-.input-posteriores{
-    border-top: solid 1px #2d2f31;
-    
-}
-.uma-secao fieldset input{
-    font-size: 5px;
-    background-color: #2D2F31;
-}
-.input-posteriores{
-    font-size: small;
-    background-color: #2D2F31;
-}
+
+
