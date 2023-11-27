@@ -150,8 +150,15 @@ select{
     background-color: white;
     font-size: medium;
 }
-.uma-secao fieldset{
-    padding-top: 24px;
-    margin-top: 24px;
+.input-posteriores{
     border-top: solid 1px #2d2f31;
+    
+}
+.uma-secao fieldset input{
+    font-size: 5px;
+    background-color: #2D2F31;
+}
+.input-posteriores{
+    font-size: small;
+    background-color: #2D2F31;
 }
