@@ -105,6 +105,12 @@ h1{
     border: 1px solid #2d2f31;
     margin-bottom: 8px;
 }
+.uma-secao{
+    padding: 24px 0 0 0;
+    margin: 24px 0 0 0;
+    border-top: solid 1px black;
+
+}
 .uma-secao fieldset .input-padrao{
     display: flex;
     align-items: center;
@@ -157,9 +163,26 @@ fieldset{
     border: 1px solid;
     border-top: none;
 }
-select{
+select.input-padrao{
     background-color: white;
     font-size: medium;
+    margin: 0;
+}
+.div-final{
+    display: flex;
+    justify-content: left;
+    margin-top: 32px;
+    height: 48px;
+    padding: 0;
+}
+.div-final button {
+    height: 100%;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #2D2F31;
+    color: white;
+    border: none;
 }
 
 
