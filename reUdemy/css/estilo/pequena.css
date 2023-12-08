@@ -215,7 +215,7 @@ footer button{
     padding-right: 1.8rem;
 }
 .secao1{
-    background-color: #6a6b6d;
+    background-color: #1C1D1F;
     padding: 20px 24px 20px 24px;
 }
 .secao1 p{
@@ -224,9 +224,30 @@ footer button{
     color: white;
 }
 .final-div{
-    background-color: #6a6b6d;
+    background-color: #1C1D1F;
     padding: 0 24px;
 }
 .botao-idioma{
-    background-color: blue;
+    background-color: #1C1D1F;
+}
+#mini-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mini-conteiner{
+    margin: 12px 24px 12px 0;
+}
+.botao-idioma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 16px 0 16px;
+    height: 2.3rem;
+}
+.botao-idioma span{
+    margin-left: 5px;
+}
+.botao-idioma svg{
+    height: 20px;
 }
