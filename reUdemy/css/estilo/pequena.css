@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
+    height: 4rem;
     background-color: white;
     box-shadow: 0px 1px 6px rgb(194, 192, 192);;
 }
@@ -257,9 +257,23 @@ footer button{
 li{
     list-style: none;
 }
-ul a{
+nav ul a{
     display: block;
     font-size: 14px;
     color: white;
     padding: 4px 0px;
+}
+.logo-and-copyright{
+    padding: 16px 0;
+}
+.logo-footer{
+    padding: 16px 0;
+}
+.logo-footer svg{
+    height: 31px;
+}
+.copyright{
+    color: white;
+    padding: 0 0 16px;
+    font-size: 12px;
 }
