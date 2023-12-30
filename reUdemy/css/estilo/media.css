@@ -2,7 +2,7 @@
 
 .conteiner-header{
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 70px;
     padding: 0 15px 0 15px;
@@ -20,6 +20,7 @@
 .conf-iguais{
     padding: 0 0.5rem;
     margin: 1rem 0;
+    white-space: nowrap;
 }
 .config-iguais svg{
     display: none;
@@ -60,8 +61,6 @@ a img {
     border: none;
 }
 
-
-
 .caixa-com-quatro{
     display: flex;
 }
@@ -70,4 +69,36 @@ a img {
 }
 .icons img{
     height: 24px;
+}
+
+/* DESENVOLVENDO O CORPO DA PÁGINA */
+
+.conteiner-body{
+    padding: 24px 24px 48px;
+    display: flex;
+}
+
+.menu-lateral{
+    border: 1px solid black;
+    
+}
+.usuario{
+    background-color: #2D2F31;
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;
+    width: 120px;
+    height: 120px;
+}
+.form-cabecalho{
+    width: 100%;
+}
+.cabecalho{
+    border: 1px solid black;
+    padding: 16px 0 16px 0;
+    text-align: center;
+    font-size: 0.7em;
 }
