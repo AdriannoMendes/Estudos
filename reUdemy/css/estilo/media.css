@@ -1,5 +1,4 @@
 
-
 .conteiner-header{
     display: flex;
     justify-content: space-between;
@@ -100,5 +99,61 @@ a img {
     border: 1px solid black;
     padding: 16px 0 16px 0;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 12px;
+    color: rgb(32, 32, 32);
+}
+.cabecalho p{
+    font-size: 16px;
+    margin-top: 8px;
+}
+.usuario{
+    background-color: #2D2F31;
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;
+    width: 120px;
+    height: 120px;
+}
+.vertical{
+    border-radius: 50%;
+}
+.nome-usuario{
+    text-align: center;
+    font-weight: 900;
+}
+ul.menu-opcoes{
+    padding: 20px 0px;
+}
+.menu-opcoes li{
+    padding: 8px 16px 4px 20px;
+    list-style: none;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* FINAL DO MENU LATERAL */
+
+/* ---------------------------------- */
+
+#form-corpo{
+    padding: 24px;
+}
+.padrao-legend{
+    font-size: 14px;
+    font-weight: 900;
+    padding: 8px;
+    color: rgb(32, 32, 32);
+}
+.input-padrao{
+    height: 48px;
+    width: 100%;
+    padding: 0px 16px;
+    border: 1px solid black;
+    margin-bottom: 8px;
 }

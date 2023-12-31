@@ -141,38 +141,13 @@ h1{
     font-weight: 900;
     color: #2d2f31;
 }
-fieldset{
-    border: none;
-}
+
 .input-padrao::placeholder{
     font-size: medium;
 }
-.alert-text{
-    font-size: 0.7rem;
-    color: #6a6b6d;
-    margin-bottom: 10px;
-}
-.button-edit{
-    height: 100%;
-    padding: 0 10px;
-    border: none;
-    background-color: transparent;
-}
-#textarea{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.textarea{
-    width: 100%;
-    border: 1px solid;
-    border-top: none;
-}
-select.input-padrao{
-    background-color: white;
-    font-size: medium;
-    margin: 0;
-}
+
+
+
 .div-final{
     display: flex;
     justify-content: left;
