@@ -10,8 +10,44 @@ body{
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
+.conteiner-usuario{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.usuario{
+    background-color: #2D2F31;
+    color: white;
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px auto;
+    width: 120px;
+    height: 120px;
+}
+.foto-usuario{
+    border-radius: 50%;
+}
 
+#form-corpo{
+    padding: 24px 16px;
+    border: rgb(185, 185, 185) solid 1px;
+    border-top: none;
+}
+.input-padrao{
+    height: 48px;
+    width: 100%;
+    padding: 0px 16px;
+    border: 1px solid black;
+    margin-bottom: 8px;
+}
+.uma-secao{
+    padding: 24px 0 0 0;
+    margin: 24px 0 0 0;
+    border-top: solid 1px rgb(185, 185, 185);
 
+}
 
 fieldset{
     border: none;
@@ -44,4 +80,51 @@ select.input-padrao{
     padding: 0 10px;
     border: none;
     background-color: transparent;
+}
+.uma-secao fieldset .input-padrao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-posteriores{
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 0px 20px 0px 15px;
+    background-color: #F7F9FA;
+    border-right: none;
+}
+.conteiner-sociais{
+    display: flex;
+}
+.conteiner-sociais .input-padrao::placeholder{
+    font-size: 12px;
+}
+.padrao-legend{
+    padding-bottom: 8px;
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: #2d2f31;
+}
+
+.input-padrao::placeholder{
+    font-size: medium;
+}
+.div-final{
+    display: flex;
+    justify-content: left;
+    margin-top: 32px;
+    height: 48px;
+    padding: 0;
+}
+.div-final button {
+    height: 100%;
+    border: none;
+    background-color: #2D2F31;
+}
+.botao-padrao{
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
 }

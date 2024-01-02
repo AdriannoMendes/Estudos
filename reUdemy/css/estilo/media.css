@@ -16,6 +16,9 @@
     height: 100%;
     
 }
+.icones-cabecalho{
+    display: none;
+}
 .conf-iguais{
     padding: 0 0.5rem;
     margin: 1rem 0;
@@ -70,7 +73,7 @@ a img {
     height: 24px;
 }
 
-/* DESENVOLVENDO O CORPO DA PÁGINA */
+/* CORPO DA PÁGINA */
 
 .conteiner-body{
     padding: 24px 24px 48px;
@@ -106,20 +109,8 @@ a img {
     font-size: 16px;
     margin-top: 8px;
 }
-.usuario{
-    background-color: #2D2F31;
-    color: white;
-    font-size: 2.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 16px auto;
-    width: 120px;
-    height: 120px;
-}
-.vertical{
-    border-radius: 50%;
-}
+
+
 .nome-usuario{
     text-align: center;
     font-weight: 900;
@@ -149,11 +140,4 @@ a{
     font-weight: 900;
     padding: 8px;
     color: rgb(32, 32, 32);
-}
-.input-padrao{
-    height: 48px;
-    width: 100%;
-    padding: 0px 16px;
-    border: 1px solid black;
-    margin-bottom: 8px;
 }
