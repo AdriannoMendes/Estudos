@@ -95,6 +95,11 @@ a img {
     width: 120px;
     height: 120px;
 }
+
+ul.menu-opcoes{
+    padding: 20px 0px;
+}
+
 .form-cabecalho{
     width: 100%;
 }
@@ -110,22 +115,10 @@ a img {
     margin-top: 8px;
 }
 
-
-.nome-usuario{
-    text-align: center;
-    font-weight: 900;
-}
-ul.menu-opcoes{
-    padding: 20px 0px;
-}
 .menu-opcoes li{
     padding: 8px 16px 4px 20px;
     list-style: none;
     white-space: nowrap;
-}
-a{
-    text-decoration: none;
-    color: black;
 }
 
 /* FINAL DO MENU LATERAL */
@@ -135,9 +128,17 @@ a{
 #form-corpo{
     padding: 24px;
 }
-.padrao-legend{
-    font-size: 14px;
-    font-weight: 900;
-    padding: 8px;
-    color: rgb(32, 32, 32);
+fieldset{
+    border: none;
+    max-width: 600px;
+    margin: auto;
+}
+
+.menu-final{
+    display: block;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    background-color: #1C1D1F;
+    padding: 0 24px;
 }

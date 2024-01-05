@@ -45,26 +45,17 @@
 /* FINAL DO CABECALHO TELA SMARTPHONE */
 /* -------------------------------------------------------- */
 
-
 .conteiner-body{
     padding: 24px 16px 48px;
 }
 
-
-.nome-usuario{
-    text-align: center;
-    font-weight: 900;
-}
-ul.menu-opcoes{
-    padding: 20px 0px;
-}
 .menu-opcoes li{
     padding: 4px 16px;
-    list-style: none;  
+    list-style: none; 
 }
-a{
-    text-decoration: none;
-    color: black;
+
+ul.menu-opcoes{
+    padding: 24px 0px;
 }
 
 /* -------------------------------------------------------- */
@@ -84,105 +75,6 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-.rodape{
-    background-color: #1C1D1F;
-    color: white;
-    padding: 20px;
-}
-h2{
-    white-space: nowrap;
-    font-size: 20px;
-}
-p{
-    margin-top: 10px;
-    font-size: 15px;
-}
-.botao-final{
-    border: 1px solid white;
-}
-footer button{
-    border: white 1px solid;
-    background-color: transparent;
-    height: 48px;
-    margin-top: 8px;
-}
-.rodape{
-    padding-left: 1.8rem;
-    padding-right: 1.8rem;
-}
-.secao1{
-    background-color: #1C1D1F;
-    padding: 20px 24px 20px 24px;
-}
-.secao1 p{
-    font-size: 20px;
-    font-weight: 900;
-    color: white;
-}
-.final-div{
-    background-color: #1C1D1F;
-    padding: 0 24px;
-}
-.botao-idioma{
-    background-color: #1C1D1F;
-}
-#mini-conteiner{
-    display: flex;
-    flex-wrap: wrap;
-}
-.mini-conteiner{
-    margin: 12px 24px 12px 0;
-}
-.botao-idioma{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0 16px 0 16px;
-    height: 2.3rem;
-}
-.botao-idioma span{
-    margin-left: 5px;
-}
-#idioma{
-    padding: 24px 0px;
-}
-.botao-idioma svg{
-    height: 20px;
-}
-li{
-    list-style: none;
-}
-nav ul a{
-    display: block;
-    font-size: 14px;
-    color: white;
-    padding: 4px 0px;
-}
-.logo-and-copyright{
-    padding: 16px 0;
-}
-.logo-footer{
-    padding: 16px 0;
-}
-.logo-footer svg{
-    height: 31px;
-}
-.copyright{
-    color: white;
-    padding: 0 0 16px;
-    font-size: 12px;
-}
 textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
