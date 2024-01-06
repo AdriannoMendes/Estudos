@@ -62,6 +62,9 @@ a img {
     height: 34px;
     border: none;
 }
+.link-oculto{
+    display: none;
+}
 
 .caixa-com-quatro{
     display: flex;
@@ -77,6 +80,7 @@ a img {
 
 .conteiner-body{
     padding: 24px 24px 48px;
+    margin: auto;
     display: flex;
 }
 
@@ -97,12 +101,17 @@ a img {
 }
 
 ul.menu-opcoes{
-    padding: 20px 0px;
+    padding: 20px 0px; 
 }
 
+/* parei aqui */
+
+
 .form-cabecalho{
-    width: 100%;
+    max-width: 600px;
+    margin: auto;
 }
+
 .cabecalho{
     border: 1px solid black;
     padding: 16px 0 16px 0;
