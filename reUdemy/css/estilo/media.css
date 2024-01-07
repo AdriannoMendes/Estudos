@@ -76,12 +76,12 @@ a img {
     height: 24px;
 }
 
+
 /* CORPO DA PÁGINA */
+
 
 .conteiner-body{
     padding: 24px 24px 48px;
-    margin: auto;
-    display: flex;
 }
 
 .menu-lateral{
@@ -108,8 +108,7 @@ ul.menu-opcoes{
 
 
 .form-cabecalho{
-    max-width: 600px;
-    margin: auto;
+    width: 100%;
 }
 
 .cabecalho{

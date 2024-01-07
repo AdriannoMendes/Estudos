@@ -79,6 +79,12 @@ a img {
     display: flex;
 }
 
+.conteiner-corpo{
+    display: flex;
+    width: 1110px;
+    margin: auto;
+}
+
 .menu-lateral{
     border: 1px solid black;
     
@@ -100,9 +106,10 @@ ul.menu-opcoes{
 }
 
 .form-cabecalho{
-    width: 100%;
+    max-width: 700px;
 }
 .cabecalho{
+    width: 100%;
     border: 1px solid black;
     padding: 16px 0 16px 0;
     text-align: center;
