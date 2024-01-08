@@ -106,10 +106,9 @@ ul.menu-opcoes{
 }
 
 .form-cabecalho{
-    max-width: 700px;
+    width: 100%;
 }
 .cabecalho{
-    width: 100%;
     border: 1px solid black;
     padding: 16px 0 16px 0;
     text-align: center;
@@ -134,11 +133,12 @@ ul.menu-opcoes{
 #form-corpo{
     padding: 24px;
 }
-fieldset{
+.alinhamento-input{
     border: none;
     max-width: 600px;
     margin: auto;
 }
+
 
 .menu-final{
     display: block;
@@ -147,4 +147,10 @@ fieldset{
     white-space: nowrap;
     background-color: #1C1D1F;
     padding: 0 24px;
+}
+
+
+ul a:hover li{
+    background-color:#6A6F73;
+    color: white
 }

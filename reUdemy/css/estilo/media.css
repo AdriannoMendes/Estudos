@@ -104,7 +104,6 @@ ul.menu-opcoes{
     padding: 20px 0px; 
 }
 
-/* parei aqui */
 
 
 .form-cabecalho{
@@ -136,10 +135,17 @@ ul.menu-opcoes{
 #form-corpo{
     padding: 24px;
 }
-fieldset{
-    border: none;
+.alinhamento-input{
+    
     max-width: 600px;
     margin: auto;
+    
+}
+.uma-secao{
+    border-top: 1px solid black; 
+}
+.formulario{
+    margin-bottom: 20px;
 }
 
 .menu-final{
@@ -149,4 +155,11 @@ fieldset{
     white-space: nowrap;
     background-color: #1C1D1F;
     padding: 0 24px;
+}
+.menu-opcoes a{
+    width: 100%;
+}
+ul a:hover li{
+    background-color:#6A6F73;
+    color: white
 }
