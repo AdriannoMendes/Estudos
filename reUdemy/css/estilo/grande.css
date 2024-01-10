@@ -86,7 +86,7 @@ a img {
 }
 
 .menu-lateral{
-    border: 1px solid black;
+    border: solid 1px rgb(185, 185, 185);
     
 }
 .usuario{
@@ -109,7 +109,7 @@ ul.menu-opcoes{
     width: 100%;
 }
 .cabecalho{
-    border: 1px solid black;
+    border: solid 1px rgb(185, 185, 185);
     padding: 16px 0 16px 0;
     text-align: center;
     font-size: 12px;
@@ -133,12 +133,23 @@ ul.menu-opcoes{
 #form-corpo{
     padding: 24px;
 }
+
 .alinhamento-input{
-    border: none;
     max-width: 600px;
     margin: auto;
 }
 
+.uma-secao{
+    max-width: 700px;
+    padding: 24px 0 0 0;
+    margin: 24px 0 0 0;
+}
+
+.espacamento-entre-campos{
+    margin: 24px auto;
+    padding: 24px 0 0 0;
+    border-top: solid 1px rgb(185, 185, 185);
+}
 
 .menu-final{
     display: block;
@@ -148,7 +159,6 @@ ul.menu-opcoes{
     background-color: #1C1D1F;
     padding: 0 24px;
 }
-
 
 ul a:hover li{
     background-color:#6A6F73;
