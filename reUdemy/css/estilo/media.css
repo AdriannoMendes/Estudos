@@ -147,17 +147,25 @@ ul.menu-opcoes{
     border-top: solid 1px rgb(185, 185, 185);
 }
 
+.paragrafo-final{
+    min-width: 40px;
+}
+
 .menu-final{
-    display: block;
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     flex-wrap: nowrap;
     white-space: nowrap;
     background-color: #1C1D1F;
     padding: 0 24px;
+    
 }
-.menu-opcoes a{
-    width: 100%;
+
+nav{
+    columns: 3;
 }
+
 ul a:hover li{
     background-color:#6A6F73;
     color: white
